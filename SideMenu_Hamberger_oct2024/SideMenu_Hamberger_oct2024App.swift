@@ -11,7 +11,7 @@ import SwiftUI
 struct SideMenu_Hamberger_oct2024App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView1()
         }
     }
 }

@@ -11,6 +11,11 @@
 		048DBD0E2CAEBFC300542E0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048DBD0D2CAEBFC300542E0B /* ContentView.swift */; };
 		048DBD102CAEBFC500542E0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048DBD0F2CAEBFC500542E0B /* Assets.xcassets */; };
 		048DBD132CAEBFC500542E0B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048DBD122CAEBFC500542E0B /* Preview Assets.xcassets */; };
+		048DBD1B2CB045AA00542E0B /* ContentView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048DBD1A2CB045AA00542E0B /* ContentView1.swift */; };
+		048DBD1D2CB046B200542E0B /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048DBD1C2CB046B200542E0B /* SideMenuView.swift */; };
+		048DBD1F2CB0479D00542E0B /* SideMenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048DBD1E2CB0479D00542E0B /* SideMenuHeaderView.swift */; };
+		048DBD212CB0595900542E0B /* SideMenuOptionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048DBD202CB0595900542E0B /* SideMenuOptionModel.swift */; };
+		048DBD232CB05BDA00542E0B /* SideMenuRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048DBD222CB05BDA00542E0B /* SideMenuRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		048DBD0D2CAEBFC300542E0B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		048DBD0F2CAEBFC500542E0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		048DBD122CAEBFC500542E0B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		048DBD1A2CB045AA00542E0B /* ContentView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView1.swift; sourceTree = "<group>"; };
+		048DBD1C2CB046B200542E0B /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		048DBD1E2CB0479D00542E0B /* SideMenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuHeaderView.swift; sourceTree = "<group>"; };
+		048DBD202CB0595900542E0B /* SideMenuOptionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionModel.swift; sourceTree = "<group>"; };
+		048DBD222CB05BDA00542E0B /* SideMenuRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,7 @@
 			children = (
 				048DBD0B2CAEBFC300542E0B /* SideMenu_Hamberger_oct2024App.swift */,
 				048DBD0D2CAEBFC300542E0B /* ContentView.swift */,
+				048DBD192CB0458E00542E0B /* Approach2 */,
 				048DBD0F2CAEBFC500542E0B /* Assets.xcassets */,
 				048DBD112CAEBFC500542E0B /* Preview Content */,
 			);
@@ -65,6 +76,18 @@
 				048DBD122CAEBFC500542E0B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		048DBD192CB0458E00542E0B /* Approach2 */ = {
+			isa = PBXGroup;
+			children = (
+				048DBD1A2CB045AA00542E0B /* ContentView1.swift */,
+				048DBD1C2CB046B200542E0B /* SideMenuView.swift */,
+				048DBD1E2CB0479D00542E0B /* SideMenuHeaderView.swift */,
+				048DBD202CB0595900542E0B /* SideMenuOptionModel.swift */,
+				048DBD222CB05BDA00542E0B /* SideMenuRowView.swift */,
+			);
+			path = Approach2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +160,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048DBD1F2CB0479D00542E0B /* SideMenuHeaderView.swift in Sources */,
+				048DBD232CB05BDA00542E0B /* SideMenuRowView.swift in Sources */,
+				048DBD1B2CB045AA00542E0B /* ContentView1.swift in Sources */,
+				048DBD212CB0595900542E0B /* SideMenuOptionModel.swift in Sources */,
 				048DBD0E2CAEBFC300542E0B /* ContentView.swift in Sources */,
+				048DBD1D2CB046B200542E0B /* SideMenuView.swift in Sources */,
 				048DBD0C2CAEBFC300542E0B /* SideMenu_Hamberger_oct2024App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
